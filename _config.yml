@@ -3,9 +3,9 @@ subtitle: ''
 description: ''
 keywords: null
 author: John Doe
-language: en
-timezone: ''
-url: https://example.com
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://blog.ldbmcs.com
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -59,6 +59,6 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: icarus
+theme: 'landscape'
 deploy:
   type: ''
