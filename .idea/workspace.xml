@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640526858484</updated>
-      <workItem from="1640526859719" duration="2148000" />
+      <workItem from="1640526859719" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="新增基础文件">
       <created>1640528114872</created>
@@ -60,15 +57,25 @@
       <option name="project" value="LOCAL" />
       <updated>1640528623428</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改主题为默认主题">
+      <created>1640529224279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640529224279</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="新增基础文件" />
     <MESSAGE value="修改workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改workflow" />
+    <MESSAGE value="修改主题为默认主题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改主题为默认主题" />
   </component>
 </project>
