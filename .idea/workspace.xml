@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640526858484</updated>
-      <workItem from="1640526859719" duration="3438000" />
+      <workItem from="1640526859719" duration="3701000" />
     </task>
     <task id="LOCAL-00001" summary="新增基础文件">
       <created>1640528114872</created>
@@ -75,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640529585090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改主题为icarus">
+      <created>1640530665021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640530665021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +90,7 @@
     <MESSAGE value="新增基础文件" />
     <MESSAGE value="修改workflow" />
     <MESSAGE value="修改主题为默认主题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改主题为默认主题" />
+    <MESSAGE value="修改主题为icarus" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改主题为icarus" />
   </component>
 </project>
