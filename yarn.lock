@@ -1139,7 +1139,7 @@
   "resolved" "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
   "version" "1.1.2"
 
-"bulma-stylus@0.8.0":
+"bulma-stylus@^0.8.0", "bulma-stylus@0.8.0":
   "integrity" "sha512-9Q9BMPeHFyJ5EWh/tJPCcLDYEovKzUBOyMHsKEIyxSYEKG8wqt9RVuTumaJ2AfDjyHC9OifWKOfJSweKYD5IMQ=="
   "resolved" "https://registry.npmjs.org/bulma-stylus/-/bulma-stylus-0.8.0.tgz"
   "version" "0.8.0"
@@ -1171,15 +1171,6 @@
   "version" "1.0.30001292"
 
 "chalk@^2.0.0":
-  "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
-  "resolved" "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
-  "version" "2.4.2"
-  dependencies:
-    "ansi-styles" "^3.2.1"
-    "escape-string-regexp" "^1.0.5"
-    "supports-color" "^5.3.0"
-
-"chalk@^2.4.1":
   "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
   "resolved" "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
   "version" "2.4.2"
@@ -1497,13 +1488,6 @@
   dependencies:
     "webidl-conversions" "^5.0.0"
 
-"domhandler@^3.0.0":
-  "integrity" "sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA=="
-  "resolved" "https://registry.npmjs.org/domhandler/-/domhandler-3.3.0.tgz"
-  "version" "3.3.0"
-  dependencies:
-    "domelementtype" "^2.0.1"
-
 "domhandler@^4.0.0", "domhandler@^4.2.0":
   "integrity" "sha512-fC0aXNQXqKSFTr2wDNZDhsEYjCiYsDWl3D01kwt25hm1YIPyDGHvvi3rw+PLqHAl/m71MaiF7d5zvBr0p5UB2g=="
   "resolved" "https://registry.npmjs.org/domhandler/-/domhandler-4.3.0.tgz"
@@ -1516,7 +1500,7 @@
   "resolved" "https://registry.npmjs.org/dompurify/-/dompurify-2.3.4.tgz"
   "version" "2.3.4"
 
-"domutils@^2.0.0", "domutils@^2.5.2":
+"domutils@^2.5.2":
   "integrity" "sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A=="
   "resolved" "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz"
   "version" "2.8.0"
@@ -1786,14 +1770,6 @@
     "moment" "^2.24.0"
     "semver" "^7.1.1"
 
-"hexo-deployer-rsync@^1.0.0":
-  "integrity" "sha512-hylGRNEHctWsjHs67VZefvrOGwzcZ4gPQ7RdVJdbWYA/OQ75IE52vDe+N9jpcfOWl8Tkv8fbX1Afuh44cv2DUw=="
-  "resolved" "https://registry.npmjs.org/hexo-deployer-rsync/-/hexo-deployer-rsync-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "chalk" "^2.4.1"
-    "hexo-util" "^1.0.0"
-
 "hexo-front-matter@^2.0.0":
   "integrity" "sha512-IR3tjAyK2Ga/0a/WDAoNy5+n3ju2/mkuAsCDEeGgGLf5+7kkiOkkG/FrnueuYgz0h2MPfWDLBiDsSTCmB0sLCA=="
   "resolved" "https://registry.npmjs.org/hexo-front-matter/-/hexo-front-matter-2.0.0.tgz"
@@ -1928,22 +1904,6 @@
   "resolved" "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
   "version" "0.0.3"
 
-"hexo-util@^1.0.0":
-  "integrity" "sha512-B6+nVi4Zpy7NPzlIcTLn9YBGb2Ly0q11mRzg6DyFWg0IfcrfF4tlWO0vRXqJVhvRyg+tIfUihmgypkiUW1IjNQ=="
-  "resolved" "https://registry.npmjs.org/hexo-util/-/hexo-util-1.9.1.tgz"
-  "version" "1.9.1"
-  dependencies:
-    "bluebird" "^3.5.2"
-    "camel-case" "^4.0.0"
-    "cross-spawn" "^7.0.0"
-    "deepmerge" "^4.2.2"
-    "highlight.js" "^9.13.1"
-    "htmlparser2" "^4.0.0"
-    "prismjs" "^1.17.1"
-    "punycode.js" "^2.1.0"
-    "strip-indent" "^3.0.0"
-    "striptags" "^3.1.1"
-
 "hexo-util@^2.0.0", "hexo-util@^2.2.0", "hexo-util@^2.4.0", "hexo-util@^2.5.0":
   "integrity" "sha512-l0zkqcg2524KPO84HQe0JROpPlCM/dEnCJaJrZ1qsq+3+/YxhDa0zxiGtUVY1dtrWzOK/V11Zj+UEklhGP8Jeg=="
   "resolved" "https://registry.npmjs.org/hexo-util/-/hexo-util-2.5.0.tgz"
@@ -1991,27 +1951,12 @@
   "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.3.tgz"
   "version" "10.7.3"
 
-"highlight.js@^9.13.1":
-  "integrity" "sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA=="
-  "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-9.18.5.tgz"
-  "version" "9.18.5"
-
 "html-encoding-sniffer@^2.0.1":
   "integrity" "sha512-D5JbOMBIR/TVZkubHT+OyT2705QvogUW4IBn6nHd756OwieSF9aDYFj4dv6HHEVGYbHaLETa3WggZYWWMyy3ZQ=="
   "resolved" "https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-2.0.1.tgz"
   "version" "2.0.1"
   dependencies:
     "whatwg-encoding" "^1.0.5"
-
-"htmlparser2@^4.0.0":
-  "integrity" "sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q=="
-  "resolved" "https://registry.npmjs.org/htmlparser2/-/htmlparser2-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "domelementtype" "^2.0.1"
-    "domhandler" "^3.0.0"
-    "domutils" "^2.0.0"
-    "entities" "^2.0.0"
 
 "htmlparser2@^6.0.0":
   "integrity" "sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A=="
@@ -2634,11 +2579,6 @@
   "resolved" "https://registry.npmjs.org/psl/-/psl-1.8.0.tgz"
   "version" "1.8.0"
 
-"punycode.js@^2.1.0":
-  "integrity" "sha512-LvGUJ9QHiESLM4yn8JuJWicstRcJKRmP46psQw1HvCZ9puLFwYMKJWvkAkP3OHBVzNzZGx/D53EYJrIaKd9gZQ=="
-  "resolved" "https://registry.npmjs.org/punycode.js/-/punycode.js-2.1.0.tgz"
-  "version" "2.1.0"
-
 "punycode@^2.1.0", "punycode@^2.1.1":
   "integrity" "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A=="
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
@@ -2898,11 +2838,6 @@
   "version" "3.0.0"
   dependencies:
     "min-indent" "^1.0.0"
-
-"striptags@^3.1.1":
-  "integrity" "sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw=="
-  "resolved" "https://registry.npmjs.org/striptags/-/striptags-3.2.0.tgz"
-  "version" "3.2.0"
 
 "stylus@^0.54.8":
   "integrity" "sha512-vr54Or4BZ7pJafo2mpf0ZcwA74rpuYCZbxrHBsH8kbcXOwSfvBFwsRfpGO5OD5fhG5HDCFW737PKaawI7OqEAg=="
