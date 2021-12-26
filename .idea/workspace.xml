@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="" />
+    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/_config.icarus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.icarus.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640526858484</updated>
-      <workItem from="1640526859719" duration="4594000" />
+      <workItem from="1640526859719" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="新增基础文件">
       <created>1640528114872</created>
@@ -115,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640531505198</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="删除广告组件">
+      <created>1640531760843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1640531760843</updated>
+    </task>
+    <task id="LOCAL-00011" summary="移除workflow的cache组件">
+      <created>1640531905055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1640531905055</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +147,8 @@
     <MESSAGE value="ops: add npm cache" />
     <MESSAGE value="修改网站语言为英语" />
     <MESSAGE value="新增网站布局组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增网站布局组件" />
+    <MESSAGE value="删除广告组件" />
+    <MESSAGE value="移除workflow的cache组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="移除workflow的cache组件" />
   </component>
 </project>
