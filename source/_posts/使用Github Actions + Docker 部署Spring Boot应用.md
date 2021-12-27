@@ -1,6 +1,7 @@
 ---
 title: 使用Github Actions + Docker 部署Spring Boot应用
 date: 2021/12/27 21:49:16
+toc: true
 categories:
 - Spring Boot
 tags:
@@ -9,6 +10,8 @@ tags:
 - DevOps
 ---
 当前，如果我们手动部署Spring Boot应用，一般都是在本地打成jar包，然后在通过ftp上传到服务器，再重启应用。这样部署实在太过麻烦，如果能把代码直接提交到代码库，自动跑测试，测试通过去部署应用，也就是持续集成，这样就能省太多的时间去创造更好的产品。
+
+<!-- more --> 
 
 当前的持续集成服务主要有：最早支持Github项目的Travis CI，腾讯的Coding和大名鼎鼎的Jenkins。
 

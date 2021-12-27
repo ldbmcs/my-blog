@@ -1,6 +1,7 @@
 ---
 title: 使用 Prometheus + Grafana 监控 MySQL
 date: 2021/12/27 21:50:59
+toc: true
 categories:
 - MySQL
 tags:
@@ -9,6 +10,8 @@ tags:
 - DevOps
 ---
 在[上一篇](https://juejin.cn/post/7015949319425490952)文章中，我们介绍了Grafana和Prometheus的基本概念，以及如何监控Spring Boot应用。今天，这篇文章将要介绍如何通过Prometheus + Grafana 监控 MySQL，快速方便的查看连接数，锁，内存，网络等指标，通过这些指标我们能快速的发现mysql瓶颈，死锁等问题。
+
+<!-- more --> 
 
 ## 1. Prometheus
 

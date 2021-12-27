@@ -1,15 +1,19 @@
 ---
 title: 你还在用JWT做身份认证嘛？
 date: 2021/12/27 22:30:01
+toc: true
 categories:
 - 安全
 tags:
 - JWT
 - 鉴权
 ---
+
 > 翻译自：[JSON Web Tokens (JWT) are Dangerous for User Sessions—Here’s a Solution](https://redis.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/)
 
 有时候，人们采用旨在解决狭义问题的技术，并开始广泛运用这项技术。这些问题可能看起来类似，但是使用独特的技术来解决一般的问题，可能会造成意想不到的后果。举个栗子，手里拿个锤子，看谁都是钉子，jwt就是这样一种技术。
+
+<!-- more --> 
 
 ![](https://image.ldbmcs.com/ZXCI8K.jpg)
 
