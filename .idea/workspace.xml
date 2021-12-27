@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.icarus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.icarus.yml" afterDir="false" />
-    </list>
+    <list default="true" id="0914247b-5baf-41dd-b4ab-dc044b07c37a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640526858484</updated>
-      <workItem from="1640526859719" duration="4863000" />
+      <workItem from="1640526859719" duration="5286000" />
     </task>
     <task id="LOCAL-00001" summary="新增基础文件">
       <created>1640528114872</created>
@@ -131,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640531905055</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix bug">
+      <created>1640531939902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640531939902</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor code">
+      <created>1640532184717</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1640532184717</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +161,8 @@
     <MESSAGE value="新增网站布局组件" />
     <MESSAGE value="删除广告组件" />
     <MESSAGE value="移除workflow的cache组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除workflow的cache组件" />
+    <MESSAGE value="fix bug" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
 </project>
