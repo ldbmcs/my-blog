@@ -4,6 +4,7 @@ author = "ldbmcs"
 title = '随便写写'
 theme = "paper"
 
+disqusShortname = 'ldbmcs'   # add disqus comments
 [params]
     twitter = 'ldbmcs'
     github = 'ldbmcs'
@@ -11,6 +12,7 @@ theme = "paper"
     avatar = 'ldbmcs@gmail.com'
     name = 'ldbmcs'
     bio = 'Discover fresh context'
+    rss = true                      # show rss icon with link
 
 [menu]
     [[menu.main]]
