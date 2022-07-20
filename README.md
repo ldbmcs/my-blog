@@ -19,7 +19,10 @@
     ```
 ## Theme
 
+Current theme: [hugo-paper](https://github.com/nanxiaobei/hugo-paper)
+
 ### Update theme
+
 在主项目目录下打开命令行工具执行命令 `git rm --cached path_to_submodule` 删除指定模块的文件
 
 打开主项目目录下 .gitmodules文件 删除如下类似内容:
