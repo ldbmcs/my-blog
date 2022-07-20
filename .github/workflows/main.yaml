@@ -13,16 +13,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
         with:
-          node-version: '14'
-      - name: Install dependencies
-        run: |
-          npm i -g hexo-cli
-          npm i
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
       - name: Build
-        run: hexo g
+        run: hugo --minify
       - name: Login to Docker Hub
         uses: docker/login-action@v1
         with:
