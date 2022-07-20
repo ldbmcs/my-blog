@@ -3,6 +3,8 @@ languageCode = 'zh'
 author = "ldbmcs"
 title = '随便写写'
 theme = "paper"
+paginate = 10
+enableInlineShortcodes = true
 
 disqusShortname = 'ldbmcs'   # add disqus comments
 [params]
