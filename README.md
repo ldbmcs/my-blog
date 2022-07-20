@@ -1,5 +1,22 @@
 ## Hugo
 
+1. Install Hugo
+   ```bash
+   brew install hugo
+    ```
+2. Create a new site
+   ```bash
+   hugo new site quickstart
+   ```   
+3. Add a Theme
+4. Start the Hugo server
+    ```bash
+    hugo server
+    ```
+5. Build static pages
+    ```bash
+    hugo -D
+    ```
 ## Theme
 
 ### Update theme
