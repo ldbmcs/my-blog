@@ -3,9 +3,9 @@ name: Deploy with docker
 on:
   push:
     # 分支
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   compile:
