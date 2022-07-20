@@ -1,0 +1,25 @@
+baseURL = 'https://blog.ldbmcs.com/'
+languageCode = 'zh'
+author = "ldbmcs"
+title = '随便写写'
+theme = "paper"
+
+[params]
+    twitter = 'ldbmcs'
+    github = 'ldbmcs'
+
+    avatar = 'ldbmcs@gmail.com'
+    name = 'ldbmcs'
+    bio = 'Discover fresh context'
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 10
+    [[menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact/"
+        weight = 10
