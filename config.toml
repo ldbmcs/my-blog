@@ -1,7 +1,7 @@
 baseURL = 'https://just1.cc'
 languageCode = 'zh'
 author = "ldbmcs"
-title = 'Just Once'
+title = '四川云果企业管理有限公司'
 theme = "paper"
 paginate = 10
 enableInlineShortcodes = true
